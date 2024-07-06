@@ -1,0 +1,101 @@
+body {
+    font-family: fantasy;
+    background-color: #f0f0f0;
+    justify-content: center; /* Center aligns horizontally */
+    align-items: center; /* Aligns items to the top of the container */
+    min-height: 100vh; /* Ensures full viewport height */
+    margin: 0;
+}
+
+.quiz-container {
+    align-items: center;
+    max-width: 600px;
+    background-color: #d8db31;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.quiz-container .question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.quiz-container .options {
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-container .options button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #42e43ce1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-color: #b71c1c;
+}
+
+.quiz-container .options button:hover {
+    background-color: #db1b1b;
+}
+
+.quiz-container .feedback {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffebee;
+    border: 1px solid #ffcdd2;
+    color: #d32f2f;
+    border-radius: 5px;
+}
+
+.quiz-container .feedback p {
+    margin-bottom: 5px;
+}
+
+.quiz-container .feedback button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: #d32f2f;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-container .feedback button:hover {
+    background-color: #b71c1c;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.question {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+.incorrect-question {
+    background-color: #ffcccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
