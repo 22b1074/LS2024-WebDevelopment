@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e14c;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dddddd2f;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #1ae62b;
+    background-color: #f04d48;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-width: 1mm;
+    font-family: fantasy;
+}
+
+.sub-container {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #ece925;
+    background-color: #18da62;
+    border-width: 1mm;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+h2, h3 {
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+a.box-link {
+    display: block;
+    width: 200px; /* Set the width */
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #0fdaf5;
+    text-align: center;
+    color: #333; /* Set link text color */
+    margin-top: 10px; /* Add some margin on top */
+    border-radius: 15px;
+    border-color: #ece925;
+    border-width: 2px;
+}
+
+a.box-link:hover {
+    background-color: #d0d0d0; /* Change background color on hover */
+}
