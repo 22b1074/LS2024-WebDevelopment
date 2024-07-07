@@ -5,7 +5,6 @@ body, html {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: Arial, sans-serif;
     background-color: #eedada3b;
     color: #333;
